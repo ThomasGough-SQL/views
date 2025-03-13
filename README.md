@@ -1,30 +1,33 @@
-# SQL Views 1-10
+# SQL Views
 
 ## Overview
-This directory contains a collection of SQL views designed to simplify data retrieval and improve query efficiency. Each view serves a specific purpose, making it easier to analyze and manage data.
+
+This repository contains a collection of SQL views designed to simplify data retrieval and enhance query efficiency. Each view serves a specific purpose, abstracting complex SQL logic into reusable components.
 
 ## Views Description
 
-1. **SQL 1.sql** - Retrieves customer details with their total purchase amounts.
-2. **SQL 2.sql** - Summarizes monthly sales, including total revenue and transaction count.
-3. **SQL 3.sql** - Lists top-selling products along with their categories.
-4. **SQL 4.sql** - Analyzes customer feedback and satisfaction ratings.
-5. **SQL 5.sql** - Summarizes employee sales performance metrics.
-6. **SQL 6.sql** - Displays supplier details with on-time delivery rates.
-7. **SQL 7.sql** - Tracks website traffic trends and most visited pages.
-8. **SQL 8.sql** - Compiles financial data for quarterly profit and loss statements.
-9. **SQL 9.sql** - Evaluates marketing campaign effectiveness by comparing budget vs. actual results.
-10. **SQL 10.sql** - Integrates social media engagement metrics to assess brand reach.
+1. **customer_orders_view.sql** - Provides a consolidated view of customers and their respective orders, including order dates and totals.
+2. **product_sales_summary_view.sql** - Summarizes sales data for each product, detailing total units sold and revenue generated.
+3. **monthly_revenue_view.sql** - Aggregates revenue data on a monthly basis, facilitating trend analysis over time.
+4. **inventory_status_view.sql** - Displays current inventory levels, highlighting products that are low in stock.
+5. **employee_performance_view.sql** - Evaluates employee performance metrics, such as sales figures and customer feedback scores.
 
 ## Usage
-1. **Modify if Needed:** Adjust table and column names to match your database structure.
-2. **Run the Scripts:** Execute each `.sql` file in your database to create the views.
-3. **Query the Views:** Use `SELECT * FROM view_name;` to retrieve processed data.
+
+To implement these views in your database:
+
+1. **Review and Modify:** Open each `.sql` file and adjust table names, column names, or schemas to align with your database structure.
+2. **Execute Scripts:** Run each SQL script in your database management system to create the views.
+3. **Query the Views:** Use standard SQL `SELECT` statements to retrieve data from the newly created views.
 
 ## Contributing
-- **Fork the Repository:** Create a personal copy.
-- **Enhance the Views:** Improve or add new views as needed.
-- **Submit a Pull Request:** Describe your changes for review.
+
+If you wish to contribute:
+
+- **Fork the Repository:** Create a personal copy of this repository.
+- **Make Changes:** Modify existing views or add new ones as needed.
+- **Submit a Pull Request:** Provide a clear description of your changes for review.
 
 ## License
+
 This project is licensed under the [MIT License](./LICENSE).
